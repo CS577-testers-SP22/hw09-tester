@@ -4,6 +4,9 @@ Additional tests for CS577 Spring 2022 HW09: Network Flow
 
 ## Changes
 
+### V1.1
+ - Fix a string not being in quotes
+
 ### V1.0
  - Initial commit
 

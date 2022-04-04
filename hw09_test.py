@@ -6,7 +6,7 @@ HW09: Network Flow
 
 __maintainer__ = 'CS577-testers-SP22'
 __author__ = ['Nicholas Beninato']
-__version__ = '1.0'
+__version__ = '1.1'
 
 import difflib
 import json
@@ -114,7 +114,7 @@ def run_tests(tests):
         if user_output != test_case['output']:
             print(f"Failed test: {test_name}")
             if 'note' in test_case:
-                print(f'This test checks for {test_case[note]}')
+                print(f'This test checks for {test_case['note']}')
             print(f"Input:\n{test_case['input']}\n")
             print(f"Expected output:\n{'*'*32}\n{test_case['output']}\n{'*'*32}\n")
             print(f"Program output:\n{'*'*32}\n{user_output}\n{'*'*32}\n")
